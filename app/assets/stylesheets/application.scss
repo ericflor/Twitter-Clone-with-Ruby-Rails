@@ -15,23 +15,22 @@
  */
  
 
- @import 'bulma';
+@import 'bulma';
 
- @import 'font-awesome';
+@import 'font-awesome';
  
- .navbar-brand .title {
+.navbar-brand .title {
      color: white;
  }
 
  // round images
- .image {
-     border-radius: 50%;
-     img {
-         border-radius: 50%;
-     }
- }
+.image {
+        border-radius: 50%;
+        img {
+            border-radius: 50%;
+        }
+}  
 
-
- .notification:not(:last-child) {
+.notification:not(:last-child) {
      margin-bottom: 0;
  }
