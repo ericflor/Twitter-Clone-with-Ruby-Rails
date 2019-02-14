@@ -15,6 +15,7 @@ class TweeetsController < ApplicationController
   def show
   end
 
+
   # GET /tweeets/new
   def new
     @tweeet = current_user.tweeets.build
